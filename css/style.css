@@ -1,0 +1,45 @@
+.brandname {
+  background: radial-gradient(ellipse at center, #2D7CE7 0%, #36AFEC);
+  margin: auto;
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 23px;
+}
+
+.refreshdt {
+  line-height:30px;
+  font-size: 15px;
+}
+
+.statusbar {
+  margin-right: 0.75rem;
+}
+
+.row {
+  font-family: 'Merriweather', serif;
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Feedstatus {
+  font-family: 'Merriweather', serif;
+  line-height: 100px;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
